@@ -1,0 +1,14 @@
+Nmap discovered 3 live hosts in the local network 10.0.2.0/24:
+
+1. IP: 10.0.2.2
+   - Open Ports:
+     • 135/tcp - msrpc
+     • 445/tcp - microsoft-ds
+     • 902/tcp - iss-realsecure
+     • 912/tcp - apex-mesh
+
+2. IP: 10.0.2.3
+   - All ports filtered
+
+3. IP: 10.0.2.15 (My system)
+   - All ports closed

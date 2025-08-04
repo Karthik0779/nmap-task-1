@@ -1,0 +1,8 @@
+Wireshark was used to observe the TCP SYN packets sent by Nmap during a -sS scan.
+
+Filter used:
+tcp.flags.syn == 1 && tcp.flags.ack == 0
+
+Each packet represents Nmap probing a specific port on target machines in the 10.0.2.0/24 range.
+
+No ACK or RST packets are shown here, since the filter only displays outgoing SYN packets.
